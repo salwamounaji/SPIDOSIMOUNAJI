@@ -1,0 +1,91 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "global": "app.global.js",
+  "core": "app.core.js",
+  "components": {
+    "app-add-enseignant": {
+      "bundleIds": {
+        "$": "app-add-enseignant"
+      }
+    },
+    "app-add-formation": {
+      "bundleIds": {
+        "$": "app-add-formation"
+      }
+    },
+    "app-details-enseignant": {
+      "bundleIds": {
+        "$": "app-details-enseignant"
+      }
+    },
+    "app-details-formation": {
+      "bundleIds": {
+        "$": "app-details-formation"
+      }
+    },
+    "app-edit-formation": {
+      "bundleIds": {
+        "$": "app-edit-formation"
+      }
+    },
+    "app-list-enseignant": {
+      "bundleIds": {
+        "$": "app-list-enseignant"
+      }
+    },
+    "app-list-formation": {
+      "bundleIds": {
+        "$": "app-list-formation"
+      },
+      "encapsulation": "shadow"
+    },
+    "app-search-enseignant": {
+      "bundleIds": {
+        "$": "app-search-enseignant"
+      }
+    },
+    "app-search-formation": {
+      "bundleIds": {
+        "$": "app-search-formation"
+      }
+    },
+    "spi-header": {
+      "bundleIds": {
+        "$": "spi-header"
+      }
+    },
+    "spi-home": {
+      "bundleIds": {
+        "$": "spi-home"
+      }
+    },
+    "spi-root": {
+      "bundleIds": {
+        "$": "spi-header"
+      }
+    },
+    "stencil-route": {
+      "bundleIds": {
+        "$": "spi-header"
+      }
+    },
+    "stencil-route-link": {
+      "bundleIds": {
+        "$": "stencil-route-link"
+      }
+    },
+    "stencil-route-switch": {
+      "bundleIds": {
+        "$": "spi-header"
+      }
+    },
+    "stencil-router": {
+      "bundleIds": {
+        "$": "spi-header"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../../node_modules/bulma/sass/components/navbar.sass";
+
+.navbar-brand  {
+    font-size: 3.8em;
+}
+
+.navbar-menu  {
+    font-size: 2em;
+}
+
+.navbar-item{
+    font-size: 1em;
+}
+
+.navbar-menu .navbar-item svg  {
+    margin-right: .25em;
+   
+}
+
+.navbar {
+ background-color: rgb(235, 240, 243);
+ height: 10vh;
+}
+
+.navbar a {
+    color: inherit; /* blue colors for links too */
+  }
+.navbar a:hover {
+    color: $link;
+}
+
+ h1{
+        font-family: aclonica, sans-serif;
+  }
+
