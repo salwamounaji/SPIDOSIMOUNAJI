@@ -113,7 +113,7 @@
                         <version>1.2.0.Final</version>
                     </path>
                 </annotationProcessorPaths>
-                <mainClass>com.Projet01Application</mainClass>
+                <mainClass>Model.Main</mainClass>
             </configuration>
             <executions>
             </executions>
